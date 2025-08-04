@@ -26,7 +26,7 @@
   "skill": {
     "talents": [
       {
-        "name": "Normal Attack: Schematic Setup",
+        "name": "Schematic Setup",
         "desc": "**Normal Attack**\nUses Mehrak to perform up to 4 consecutive attacks.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, performs a more powerful slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
         "img": "Common/Claymore",
         "talentTable": [
@@ -102,7 +102,7 @@
               "61.8%",
               "68.0%",
               "72.3%",
-              "77.2%",
+              "77.3%",
               "84.0%",
               "90.8%",
               "97.6%",
@@ -446,7 +446,7 @@
       "statsUp": [
         {
           "stat": "Base HP",
-          "value": 3588.609130859375
+          "value": 3588.6091
         },
         {
           "stat": "Base DEF",

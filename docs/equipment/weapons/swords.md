@@ -18,6 +18,10 @@ import swords from '@site/src/data/weapons/Sword.json'
 
 </Weapon>
 
+### Azurelight
+
+<Weapon weapon="Azurelight" weapons={swords} />
+
 ### Freedom-Sworn
 
 <Weapon weapon="Freedom-Sworn" weapons={swords}>
@@ -57,6 +61,10 @@ import MillennialMovementSeries from './\_common/millennial_movement.md';
 * A Mistsplitter's Emblem stack that a character obtains when Normal Attack deals Elemental DMG can also be obtained when Charged Attack deals Elemental DMG as well.
 
 </Weapon>
+
+### Peak Patrol Song
+
+<Weapon weapon="Peak Patrol Song" weapons={swords} />
 
 ### Primordial Jade Cutter
 
@@ -107,6 +115,10 @@ import BlackcliffSeries from './\_common/blackcliff_series.md';
 
 </Weapon>
 
+### Calamity of Eshu
+
+<Weapon weapon="Calamity of Eshu" weapons={swords} />
+
 ### Cinnabar Spindle
 
 <Weapon weapon="Cinnabar Spindle" weapons={swords}>
@@ -137,6 +149,10 @@ import FavSeries from './\_common/fav_series.md';
 ### Fleuve Cendre Ferryman
 
 <Weapon weapon="Fleuve Cendre Ferryman" weapons={swords} />
+
+### Flute of Ezpitzal
+
+<Weapon weapon="Flute of Ezpitzal" weapons={swords} />
 
 ### Iron Sting
 
@@ -187,6 +203,10 @@ import SacSeries from './\_common/sac_series.md';
 ### Sapwood Blade
 
 <Weapon weapon="Sapwood Blade" weapons={swords} />
+
+### Sturdy bone
+
+<Weapon weapon="Sturdy Bone" weapons={swords} />
 
 ### Sword of Descension
 

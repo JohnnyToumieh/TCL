@@ -106,6 +106,10 @@ import Artifact from '@site/src/components/artifact/Artifact'
 
 </Artifact>
 
+### Finale of the Deep Galleries
+
+<Artifact artifact="Finale of the Deep Galleries" />
+
 ### Flower of Paradise Lost
 
 <Artifact artifact="Flower of Paradise Lost" />
@@ -162,6 +166,10 @@ import Artifact from '@site/src/components/artifact/Artifact'
 
 </Artifact>
 
+### Long Night's Oath
+
+<Artifact artifact="Long Night's Oath" />
+
 ### Maiden Beloved
 
 <Artifact artifact="Maiden Beloved">
@@ -199,6 +207,10 @@ import Artifact from '@site/src/components/artifact/Artifact'
 ### Nymph's Dream
 
 <Artifact artifact="Nymph's Dream" />
+
+### Obsidian Codex
+
+<Artifact artifact="Obsidian Codex" />
 
 ### Ocean-Hued Clam
 
@@ -240,6 +252,10 @@ import Artifact from '@site/src/components/artifact/Artifact'
 * The 2-Piece shield strength effect only applies to the character equipping the artifact set, not the character creating the shield.
 
 </Artifact>
+
+### Scroll of the Hero of Cinder City
+
+<Artifact artifact="Scroll of the Hero of Cinder City" />
 
 ### Shimenawa's Reminiscence
 

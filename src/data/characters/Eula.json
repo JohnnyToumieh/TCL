@@ -26,7 +26,7 @@
   "skill": {
     "talents": [
       {
-        "name": "Normal Attack: Favonius Bladework - Edel",
+        "name": "Favonius Bladework - Edel",
         "desc": "**Normal Attack**\nPerforms up to 5 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, performs a more powerful slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
         "img": "Common/Claymore",
         "talentTable": [
@@ -186,7 +186,7 @@
       },
       {
         "name": "Icetide Vortex",
-        "desc": "Sharp frost, swift blade.\n\n**Press**\nSlashes swiftly, dealing **Cryo DMG**.\nWhen it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times. These stacks can only be gained once every 0.3s.\n\n**Grimheart**\nIncreases Eula's resistance to interruption and DEF.\n\n**Hold**\nWielding her sword, Eula consumes all the stacks of Grimheart and lashes forward, dealing **AoE Cryo DMG** to opponents in front of her.\nIf Grimheart stacks are consumed, surrounding opponents will have their Physical RES and **Cryo RES** decreased.\nEach consumed stack of Grimheart will be converted into an Icewhirl Brand that deals **Cryo DMG** to nearby opponents.\n\n**\"So the waves roiled, swallowing the crown of the nobles. And ever after did each drop amidst the icy waves reflect a golden crown, each and every droplet of the spray shining with its light.\"**",
+        "desc": "Sharp frost, swift blade.\n\n**#Press**\nSlashes swiftly, dealing **Cryo DMG**.\nWhen it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times. These stacks can only be gained once every 0.3s.\n\n**Grimheart**\nIncreases Eula's resistance to interruption and DEF.\n\n**Hold**\nWielding her sword, Eula consumes all the stacks of Grimheart and lashes forward, dealing **AoE Cryo DMG** to opponents in front of her.\nIf Grimheart stacks are consumed, surrounding opponents will have their Physical RES and **Cryo RES** decreased.\nEach consumed stack of Grimheart will be converted into an Icewhirl Brand that deals **Cryo DMG** to nearby opponents.\n\n**\"So the waves roiled, swallowing the crown of the nobles. And ever after did each drop amidst the icy waves reflect a golden crown, each and every droplet of the spray shining with its light.\"**",
         "img": "Eula/skill_1",
         "talentTable": [
           {
@@ -404,7 +404,7 @@
       },
       {
         "name": "Lady of Seafoam",
-        "desc": "Decreases the CD of **Icetide Vortex**'s Holding Mode, rendering it identical to Press CD.",
+        "desc": "Decreases the CD of **Icetide Vortex**'s Holding Mode, rendering it identical to #Press CD.",
         "img": "Eula/const_1"
       },
       {
@@ -458,7 +458,7 @@
       "statsUp": [
         {
           "stat": "Base HP",
-          "value": 882.7765502929688
+          "value": 882.77655
         },
         {
           "stat": "Base DEF",
@@ -466,7 +466,7 @@
         },
         {
           "stat": "Base ATK",
-          "value": 22.82823371887207
+          "value": 22.828234
         },
         {
           "stat": "CRIT DMG",
@@ -488,7 +488,7 @@
         },
         {
           "stat": "Base ATK",
-          "value": 39.04829406738281
+          "value": 39.048294
         },
         {
           "stat": "CRIT DMG",
@@ -502,11 +502,11 @@
       "statsUp": [
         {
           "stat": "Base HP",
-          "value": 2346.3271484375
+          "value": 2346.3271
         },
         {
           "stat": "Base DEF",
-          "value": 133.2139434814453
+          "value": 133.21394
         },
         {
           "stat": "Base ATK",
@@ -524,7 +524,7 @@
       "statsUp": [
         {
           "stat": "Base HP",
-          "value": 2973.563232421875
+          "value": 2973.5632
         },
         {
           "stat": "Base DEF",
@@ -550,11 +550,11 @@
         },
         {
           "stat": "Base DEF",
-          "value": 204.437255859375
+          "value": 204.43726
         },
         {
           "stat": "Base ATK",
-          "value": 93.11516571044922
+          "value": 93.115166
         },
         {
           "stat": "CRIT DMG",

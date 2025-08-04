@@ -26,7 +26,7 @@
   "skill": {
     "talents": [
       {
-        "name": "Normal Attack: As Water Seeks Equilibrium",
+        "name": "As Water Seeks Equilibrium",
         "desc": "**Normal Attack**\nWith light flourishes, Neuvillette commands the tides to unleash a maximum of 3 attacks, dealing **Hydro DMG**.\n\n**Charged Attack Empowerment: Legal Evaluation**\nWhile charging up, Neuvillette will gather the power of water, forming it into a Seal of Arbitration. In this state, Neuvillette can move and change facing, and also absorb any Sourcewater Droplets in a certain AoE.\nEvery Droplet he absorbs will increase the formation speed of the Seal, and will heal Neuvillette.\nWhen the charging is stopped, if the Symbol has yet to be formed, then a Charged Attack will be unleashed. If it has been formed, then a Charged Attack: Equitable Judgment will be unleashed.\n\n**Charged Attack**\nConsumes a fixed amount of Stamina to attack opponents with a rupturing blast of water, dealing **AoE Hydro DMG**.\n\n**Charged Attack: Equitable Judgment**\nUnleashes surging torrents, dealing continuous **AoE Hydro DMG** to all opponents in a straight-line area in front of him.\nEquitable Judgment will not consume any Stamina and lasts 3s.\nIf Neuvillette's HP is above 50%, he will continuously lose HP while using this attack.\n\n**Plunging Attack**\nGathering the might of Hydro, Neuvillette plunges towards the ground from mid-air, damaging all opponents in his path. Deals **AoE Hydro DMG** upon impact with the ground.",
         "img": "Common/Catalyst",
         "talentTable": [
@@ -267,7 +267,7 @@
     "passive": [
       {
         "name": "Heir to the Ancient Sea's Authority",
-        "desc": "When a party member triggers a Vaporize, Frozen, Electro-Charged, Bloom, Hydro Swirl, or a Hydro Crystallize reaction on opponents, 1 stack of Past Draconic Glories will be granted to Neuvillette for 30s. Max 3 stacks. Past Draconic Glories causes Charged Attack: Equitable Judgment to deal 110%/125%/160% of its original DMG.\nThe stacks of Past Draconic Glories created by each kind of Elemental Reaction exist independently.",
+        "desc": "When a party member triggers a Vaporize, Frozen, Electro-Charged, Lunar-Charged, Bloom, Hydro Swirl, or a Hydro Crystallize reaction on opponents, 1 stack of Past Draconic Glories will be granted to Neuvillette for 30s. Max 3 stacks. Past Draconic Glories causes Charged Attack: Equitable Judgment to deal 110%/125%/160% of its original DMG.\nThe stacks of Past Draconic Glories created by each kind of Elemental Reaction exist independently.",
         "img": "Neuvillette/passive_0",
         "minAscension": 1
       },
@@ -346,7 +346,7 @@
       "statsUp": [
         {
           "stat": "Base HP",
-          "value": 980.8628540039062
+          "value": 980.86285
         },
         {
           "stat": "Base DEF",
@@ -368,7 +368,7 @@
       "statsUp": [
         {
           "stat": "Base HP",
-          "value": 1677.791748046875
+          "value": 1677.7917
         },
         {
           "stat": "Base DEF",
@@ -376,7 +376,7 @@
         },
         {
           "stat": "Base ATK",
-          "value": 23.78396224975586
+          "value": 23.783962
         },
         {
           "stat": "CRIT DMG",
@@ -390,7 +390,7 @@
       "statsUp": [
         {
           "stat": "Base HP",
-          "value": 2607.0302734375
+          "value": 2607.0303
         },
         {
           "stat": "Base DEF",
@@ -398,7 +398,7 @@
         },
         {
           "stat": "Base ATK",
-          "value": 36.95661544799805
+          "value": 36.956615
         },
         {
           "stat": "CRIT DMG",
@@ -442,7 +442,7 @@
         },
         {
           "stat": "Base ATK",
-          "value": 56.71560287475586
+          "value": 56.715603
         },
         {
           "stat": "CRIT DMG",

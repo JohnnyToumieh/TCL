@@ -1,12 +1,12 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const {themes} = require('prism-react-renderer');
+import math from "remark-math";
+import katex from "rehype-katex";
+import { themes } from "prism-react-renderer";
+
 const lightCodeTheme = themes.github;
 const darkCodeTheme = themes.dracula;
-
-const math = require('remark-math');
-const katex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -89,6 +89,12 @@ const config = {
 
           { from: ['/kazuha', '/characters/anemo/kazuha'], to: '/characters/anemo/kaedehara-kazuha' },
           { from: '/evidence/characters/anemo/kazuha', to: '/evidence/characters/anemo/kaedehara-kazuha' },
+
+          { from: ['/lanyan', '/characters/anemo/lanyan'], to: '/characters/anemo/lan-yan' },
+          { from: '/evidence/characters/anemo/lanyan', to: '/evidence/characters/anemo/lan-yan' },
+
+          { from: ['/mizuki', '/characters/anemo/mizuki'], to: '/characters/anemo/yumemizuki-mizuki' },
+          { from: '/evidence/characters/anemo/mizuki', to: '/evidence/characters/anemo/yumemizuki-mizuki' },
 
           { from: ['/ayaka', '/characters/cryo/ayaka'], to: '/characters/cryo/kamisato-ayaka' },
           { from: '/evidence/characters/cryo/ayaka', to: '/evidence/characters/cryo/kamisato-ayaka' },
@@ -294,7 +300,7 @@ const config = {
           apiKey: 'VXstnBtIuOWIUb1VRaY6hKcdWv47QzBK'
         }
       }
-    }),
+    })
 };
 
 module.exports = config;

@@ -7,6 +7,11 @@ import SkillIcon from '@site/src/components/char/SkillIcon'
 
 # Sethos
 
+<!-- Remove this warning when adding the basic mechs ticket -->
+:::caution
+This character has not yet had their findings added to the TCL. Most information will be unavailable.
+:::
+
 import Image from '@theme/IdealImage'
 
 <Image img={require('/img/characters/gacha/Sethos.png')} alt="Sethos's gacha art" />

@@ -26,7 +26,7 @@
   "skill": {
     "talents": [
       {
-        "name": "Normal Attack: Lightning Touch",
+        "name": "Lightning Touch",
         "desc": "**Normal Attack**\nPerforms up to 4 lightning attacks that deal **Electro DMG**.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to deal **AoE Electro DMG** after a short casting time.\n\n**Plunging Attack**\nGathering the might of Electro, Lisa plunges towards the ground from mid-air, damaging all opponents in her path. Deals **AoE Electro DMG** upon impact with the ground.",
         "img": "Common/Catalyst",
         "talentTable": [
@@ -91,7 +91,7 @@
               "87.9%",
               "93.4%",
               "98.9%",
-              "104.6%"
+              "105%"
             ]
           },
           {
@@ -150,7 +150,7 @@
       },
       {
         "name": "Violet Arc",
-        "desc": "Channels the power of lightning to sweep bothersome matters away.\n\n**Press**\nReleases a homing Lightning Orb.\nOn hit, it deals **Electro DMG** and applies a stack of the Conductive status (max 3 stacks) to opponents in a small AoE.\n\n**Hold**\nAfter an extended casting time, calls down lightning from the heavens, dealing massive **Electro DMG** to all nearby opponents.\nDeals great amounts of extra damage to opponents based on the number of Conductive stacks applied to them, and clears their Conductive status.\n\n**Electro Purple is the raiment of the Witch of Purple Rose.**",
+        "desc": "Channels the power of lightning to sweep bothersome matters away.\n\n**#Press**\nReleases a homing Lightning Orb.\nOn hit, it deals **Electro DMG** and applies a stack of the Conductive status (max 3 stacks) to opponents in a small AoE.\n\n**Hold**\nAfter an extended casting time, calls down lightning from the heavens, dealing massive **Electro DMG** to all nearby opponents.\nDeals great amounts of extra damage to opponents based on the number of Conductive stacks applied to them, and clears their Conductive status.\n\n**Electro Purple is the raiment of the Witch of Purple Rose.**",
         "img": "Lisa/skill_1",
         "talentTable": [
           {
@@ -159,16 +159,16 @@
               "80.0%",
               "86.0%",
               "92.0%",
-              "100.0%",
-              "106.0%",
-              "112.0%",
-              "120.0%",
-              "128.0%",
-              "136.0%",
-              "144.0%",
-              "152.0%",
-              "160.0%",
-              "170.0%"
+              "100%",
+              "106%",
+              "112%",
+              "120%",
+              "128%",
+              "136%",
+              "144%",
+              "152%",
+              "160%",
+              "170%"
             ]
           },
           {
@@ -404,7 +404,7 @@
         },
         {
           "stat": "Base ATK",
-          "value": 24.804584503173828
+          "value": 24.804585
         },
         {
           "stat": "Elemental Mastery",
@@ -426,7 +426,7 @@
         },
         {
           "stat": "Base ATK",
-          "value": 38.54250717163086
+          "value": 38.542507
         },
         {
           "stat": "Elemental Mastery",
@@ -462,7 +462,7 @@
       "statsUp": [
         {
           "stat": "Base HP",
-          "value": 2444.986328125
+          "value": 2444.9863
         },
         {
           "stat": "Base DEF",
@@ -470,7 +470,7 @@
         },
         {
           "stat": "Base ATK",
-          "value": 59.14939498901367
+          "value": 59.149395
         },
         {
           "stat": "Elemental Mastery",
@@ -484,7 +484,7 @@
       "statsUp": [
         {
           "stat": "Base HP",
-          "value": 2870.88720703125
+          "value": 2870.8872
         },
         {
           "stat": "Base DEF",
@@ -492,7 +492,7 @@
         },
         {
           "stat": "Base ATK",
-          "value": 69.45283508300781
+          "value": 69.452835
         },
         {
           "stat": "Elemental Mastery",

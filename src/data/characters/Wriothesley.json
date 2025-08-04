@@ -26,7 +26,7 @@
   "skill": {
     "talents": [
       {
-        "name": "Normal Attack: Forceful Fists of Frost",
+        "name": "Forceful Fists of Frost",
         "desc": "**Normal Attack**\nCoalescing frost about his fist, Wriothesley will unleash powerful **Repelling Fists**, performing up to 5 rapid attacks that deal **Cryo DMG**.\nApart from this, Normal Attack combo count will not reset for a short time after using Icefang Rush or sprinting.\n\n**Charged Attack**\nConsumes a fixed amount of Stamina to leap and unleash a **Vaulting Fist**, dealing **AoE Cryo DMG**.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing **AoE Cryo DMG** upon impact.",
         "img": "Common/Catalyst",
         "talentTable": [
@@ -340,7 +340,7 @@
       "statsUp": [
         {
           "stat": "Base HP",
-          "value": 907.2981567382812
+          "value": 907.29816
         },
         {
           "stat": "Base DEF",
@@ -388,7 +388,7 @@
         },
         {
           "stat": "Base DEF",
-          "value": 135.3955535888672
+          "value": 135.39555
         },
         {
           "stat": "Base ATK",
@@ -428,7 +428,7 @@
       "statsUp": [
         {
           "stat": "Base HP",
-          "value": 3700.8212890625
+          "value": 3700.8213
         },
         {
           "stat": "Base DEF",
@@ -450,7 +450,7 @@
       "statsUp": [
         {
           "stat": "Base HP",
-          "value": 4345.48046875
+          "value": 4345.4805
         },
         {
           "stat": "Base DEF",

@@ -26,7 +26,7 @@
   "skill": {
     "talents": [
       {
-        "name": "Normal Attack: Marvelous Sword-Dance (Modified)",
+        "name": "Marvelous Sword-Dance (Modified)",
         "desc": "**Normal Attack**\nPerforms up to 3 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash. \n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
         "img": "Common/Claymore",
         "talentTable": [
@@ -181,7 +181,7 @@
               "31.6%",
               "33.9%",
               "36.3%",
-              "39.4%",
+              "39.5%",
               "41.8%",
               "44.2%",
               "47.3%",
@@ -277,7 +277,7 @@
     "passive": [
       {
         "name": "An Eye for Gold",
-        "desc": "After a character connected to the **Jinni** triggers an Electro-Charged, Superconduct, Overloaded, Quicken, Aggravate, Hyperbloom, or an Electro Swirl or Crystallize reaction, the CD of **Spirit-Warding Lamp: Troubleshooter Cannon** is decreased by 1s.\nThis effect can be triggered once every 3s.",
+        "desc": "After a character connected to the **Jinni** triggers an Electro-Charged, Lunar-Charged, Superconduct, Overloaded, Quicken, Aggravate, Hyperbloom, Electro Swirl, or Electro Crystallize reaction, the CD of **Spirit-Warding Lamp: Troubleshooter Cannon** is decreased by 1s.\nThis effect can be triggered once every 3s.",
         "img": "Dori/passive_0",
         "minAscension": 1
       },
@@ -378,7 +378,7 @@
       "statsUp": [
         {
           "stat": "Base HP",
-          "value": 1328.2513427734375
+          "value": 1328.2513
         },
         {
           "stat": "Base DEF",
@@ -386,7 +386,7 @@
         },
         {
           "stat": "Base ATK",
-          "value": 23.894325256347656
+          "value": 23.894325
         },
         {
           "stat": "HP%",
@@ -400,7 +400,7 @@
       "statsUp": [
         {
           "stat": "Base HP",
-          "value": 2063.8984375
+          "value": 2063.8984
         },
         {
           "stat": "Base DEF",
@@ -408,7 +408,7 @@
         },
         {
           "stat": "Base ATK",
-          "value": 37.12810516357422
+          "value": 37.128105
         },
         {
           "stat": "HP%",
@@ -422,7 +422,7 @@
       "statsUp": [
         {
           "stat": "Base HP",
-          "value": 2615.633544921875
+          "value": 2615.6335
         },
         {
           "stat": "Base DEF",
@@ -444,7 +444,7 @@
       "statsUp": [
         {
           "stat": "Base HP",
-          "value": 3167.36865234375
+          "value": 3167.3687
         },
         {
           "stat": "Base DEF",
@@ -452,7 +452,7 @@
         },
         {
           "stat": "Base ATK",
-          "value": 56.97877502441406
+          "value": 56.978775
         },
         {
           "stat": "HP%",

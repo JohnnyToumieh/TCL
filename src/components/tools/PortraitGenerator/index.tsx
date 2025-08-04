@@ -8,6 +8,7 @@ import TabItem from '@theme/TabItem'
 import Tabs from '@theme/Tabs'
 import { CheckboxInput } from '../../common/input/CheckboxInput'
 import filename from '@site/src/utils/filename'
+import MDXComponents from '@site/src/theme/MDXComponents'
 
 export interface PortraitIcon {
   name: string
@@ -51,18 +52,26 @@ const travelers = [{
   name: "Lumine",
   path: "/img/characters/icon/Lumine.png",
 }]
+const roundedTravelers = [{
+  name: "Aether",
+  path: "/img/characters/round-icon/Aether.png",
+}, {
+  name: "Lumine",
+  path: "/img/characters/round-icon/Lumine.png",
+}]
 const localStorageKey = "portrait-generator-custom-icons"
 
 export default function PortraitGenerator({
-  charIcons, artiIcons, weaponIcons
+  charIcons, roundedCharIcons, artiIcons, weaponIcons
 }: {
   charIcons: Record<string, string[]>,
+  roundedCharIcons: Record<string, string[]>,
   artiIcons: Record<string, string[]>,
   weaponIcons: Record<string, string[]>
 }) {
   const [active, setActive] = useState([{
     name: "Keqing",
-    path: `/img/characters/icon/Keqing.png`,
+    path: `/img/characters/round-icon/Keqing_Alt1.png`,
     note: "C2+"
   }] as PortraitIcon[])
   const [custom, setCustom] = useState([] as PortraitIcon[])
@@ -86,12 +95,17 @@ export default function PortraitGenerator({
       localStorage.setItem(localStorageKey, JSON.stringify(custom))
   }, [custom])
 
+  const [travelersPortraits, setTravelersPortraits] = useState(roundedTravelers as {
+    name: string
+    path: string
+  }[])
+  
   const iconsMisc = [
     {
       name: "Fill slot",
-      path: "/img/characters/abstract-user-flat-3-colored.svg",
+      path: "/img/characters/abstract-user-flat-3-colored.png",
     },
-    ...travelers
+    ...travelersPortraits
   ]
 
   const iconsChar = Object.entries(charIcons).sort((a, b) => a[0].localeCompare(b[0])).map(([element, icons]) => ({
@@ -106,6 +120,35 @@ export default function PortraitGenerator({
       elementalIcon: relevant
     })))
   }))
+
+  const iconsRoundChar = Object.entries(roundedCharIcons).sort((a, b) => a[0].localeCompare(b[0])).map(([element, icons]) => ({
+    element,
+    chars: icons.sort().map(name => ({
+      name,
+      path: `/img/characters/round-icon/${filename(name)}.png`
+    })),
+    travelerIcons: elements.filter(x => x.name == element).flatMap(relevant => roundedTravelers.map(traveler => ({
+      ...traveler,
+      name: `${traveler.name} (${relevant.name})`,
+      elementalIcon: relevant
+    })))
+  }))
+
+  const [charPortraits, setCharPortraits] = useState(iconsRoundChar as {
+    element: string
+    chars: {
+        name: string
+        path: string
+    }[]
+    travelerIcons: {
+        name: string
+        elementalIcon: {
+            name: string
+            path: string
+        }
+        path: string
+    }[]
+  }[])
 
   const iconsArtifacts = Object.entries(artiIcons).sort((a, b) => a[0].localeCompare(b[0])).map(([level, icons]) => ({
     level,
@@ -125,8 +168,8 @@ export default function PortraitGenerator({
     }))
   }))
 
-  const allIcons: PortraitIcon[] = [
-    ...iconsChar.flatMap(x => [...x.chars, ...x.travelerIcons]),
+  var allIcons: PortraitIcon[] = [
+    ...charPortraits.flatMap(x => [...x.chars, ...x.travelerIcons]),
     ...elements,
     ...iconsArtifacts.flatMap(x => x.icons),
     ...iconsWeapons.flatMap(x => x.icons),
@@ -134,8 +177,8 @@ export default function PortraitGenerator({
     ...custom
   ]
 
-  const matches = findFuzzyBestCandidates(allIcons.map(x => x.name), search, 8)
-  const searchMatches = search.length == 0 ? [] : matches.flatMap(m => allIcons.filter(x => m == x.name)).filter((v, i, a) => a.indexOf(v) == i)
+  const matches = findFuzzyBestCandidates(allIcons.map(x => filterName(x.name)), search, 8)
+  const searchMatches = search.length == 0 ? [] : matches.flatMap(m => allIcons.filter(x => m == filterName(x.name))).filter((v, i, a) => a.indexOf(v) == i)
 
   function add(icon: PortraitIcon, multi: boolean, note: boolean) {
     if (note) {
@@ -171,8 +214,26 @@ export default function PortraitGenerator({
       active.pop()
     setActive([...active])
   }
+  function filterName(name: string) {
+    // Filter out Skin or Version number and Elements written in parenthesis (for the Travelers)
+    return name.replace(/ Skin[0-9]+| Alt[0-9]+| \([A-z]+\)/g, "")
+  }
 
   return <div>
+    <MDXComponents.Details>
+      <summary>Settings</summary>
+      <label>
+        Background: <CheckboxInput set={setBackground} value={background} />
+      </label> <br/>
+      <label>
+        Portrait padding: <CheckboxInput set={setPortraitPadding} value={portraitPadding} />
+      </label> <br/> <br/>
+
+      <label>
+        Names text: <CheckboxInput set={setNames} value={names} />
+      </label>
+    </MDXComponents.Details>
+    
     <Preview
       active={active}
       remove={(i: number) => setActive([...active.slice(0, i), ...active.slice(i + 1)])}
@@ -200,10 +261,25 @@ export default function PortraitGenerator({
         onClick={add}
       />}
     </div>
-
+    <label>
+      Character portrait style: <select id="charPortraits" onClick={() => {
+        const isChecked = document.getElementById("charPortraits") as HTMLSelectElement
+        if (isChecked.value == "Plain") {
+          setCharPortraits(iconsChar)
+          setTravelersPortraits(travelers)
+        } else {
+          setCharPortraits(iconsRoundChar)
+          setTravelersPortraits(roundedTravelers)
+        }
+      }}>
+        <option value={"Rounded"}>Rounded</option>
+        <option value={"Plain"}>Plain</option>
+      </select>
+    </label> <br/> <br/>
+    
     <h2>Characters</h2>
     <Tabs>
-      {iconsChar.map(({ element, chars, travelerIcons }) => {
+      {charPortraits.map(({ element, chars, travelerIcons }) => {
         return <TabItem key={element} value={element} label={element}>
           <CharSelector
             icons={chars}
@@ -218,7 +294,7 @@ export default function PortraitGenerator({
     </Tabs>
 
     <h2>Elements</h2>
-    <CharSelector icons={elements} onClick={add} />
+    <CharSelector icons={elements} onClick={add} /> <br/>
 
     <h2>Artifacts</h2>
     <Tabs>
@@ -245,27 +321,9 @@ export default function PortraitGenerator({
     </Tabs>
 
     <h2>Misc</h2>
-    <CharSelector icons={iconsMisc} onClick={add} />
+    <CharSelector icons={iconsMisc} onClick={add} /> <br/>
 
-    {custom.length > 0 && <>
-      <h2>Custom</h2>
-      <CharSelector icons={custom} onClick={add} onCtrlClick={icon => {
-        if (!confirm(`Are you sure you want to delete ${icon.name}`))
-          return
-        setCustom(custom.filter(x => x != icon))
-      }} />
-    </>}
-
-    <h2>Settings</h2>
-    <label>
-      Use background: <CheckboxInput set={setBackground} value={background} />
-    </label> <br/>
-    <label>
-      Portrait padding: <CheckboxInput set={setPortraitPadding} value={portraitPadding} />
-    </label> <br/>
-    <label>
-      Add names text: <CheckboxInput set={setNames} value={names} />
-    </label> <br/>
+    <h2>Custom</h2>
     <a href='#' onClick={e => {
       e.preventDefault()
       const name = prompt("Name", `Custom Icon`)
@@ -274,6 +332,11 @@ export default function PortraitGenerator({
         name,
         path: url,
       }])
-    }}>Add custom image</a>
+    }}>Add custom image</a> <br/> <br/>
+    <CharSelector icons={custom} onClick={add} onCtrlClick={icon => {
+      if (!confirm(`Are you sure you want to delete ${icon.name}`))
+        return
+      setCustom(custom.filter(x => x != icon))
+    }} />
   </div>
 }

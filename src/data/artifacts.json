@@ -4,7 +4,7 @@
     "bonuses": [
       {
         "count": 2,
-        "desc": "Max HP increased by 1000."
+        "desc": "Max HP increased by 1,000."
       },
       {
         "count": 4,
@@ -304,7 +304,7 @@
       },
       {
         "count": 4,
-        "desc": "Increases DMG caused by Overloaded, Electro-Charged, Superconduct, and Hyperbloom by 40%, and the DMG Bonus conferred by Aggravate is increased by 20%. When Quicken or the aforementioned Elemental Reactions are triggered, Elemental Skill CD is decreased by 1s. Can only occur once every 0.8s."
+        "desc": "Increases the DMG caused by Overloaded, Electro-Charged, Superconduct, and Hyperbloom by 40%, the DMG Bonus conferred by Aggravate by 20%, and the DMG caused by Lunar-Charged by 20%. When Quicken or the aforementioned Elemental Reactions are triggered, Elemental Skill CD is decreased by 1s. Can only occur once every 0.8s."
       }
     ]
   },
@@ -643,6 +643,58 @@
       {
         "count": 4,
         "desc": "After leaving combat for 3s, DMG dealt increased by 50%. In combat, if no Burning opponents are nearby for more than 6s, this DMG Bonus will decrease by 10% per second until it reaches 0%. When a Burning opponent exists, it will increase by 10% instead until it reaches 50%. This effect still triggers if the equipping character is off-field."
+      }
+    ]
+  },
+  "Scroll of the Hero of Cinder City": {
+    "name": "Scroll of the Hero of Cinder City",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "When a nearby party member triggers a Nightsoul Burst, the equipping character regenerates 6 Elemental Energy."
+      },
+      {
+        "count": 4,
+        "desc": "After the equipping character triggers a reaction related to their Elemental Type, all nearby party members gain a 12% Elemental DMG Bonus for the Elemental Types involved in the elemental reaction for 15s. If the equipping character is in the Nightsoul's Blessing state when triggering this effect, all nearby party members gain an additional 28% Elemental DMG Bonus for the Elemental Types involved in the elemental reaction for 20s. The equipping character can trigger this effect while off-field, and the DMG bonus from Artifact Sets with the same name do not stack."
+      }
+    ]
+  },
+  "Obsidian Codex": {
+    "name": "Obsidian Codex",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "While the equipping character is in Nightsoul's Blessing and is on the field, their DMG dealt is increased by 15%."
+      },
+      {
+        "count": 4,
+        "desc": "After the equipping character consumes 1 Nightsoul point while on the field, CRIT Rate increases by 40% for 6s. This effect can trigger once every second."
+      }
+    ]
+  },
+  "Long Night's Oath": {
+    "name": "Long Night's Oath",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Plunging Attack DMG increased by 25%."
+      },
+      {
+        "count": 4,
+        "desc": "After the equipping character's Plunging Attack/Charged Attack/Elemental Skill hits an opponent, they will gain 1/2/2 stack(s) of \"Radiance Everlasting.\" Plunging Attacks, Charged Attacks, or Elemental Skills can each trigger this effect once every 1s. Radiance Everlasting: Plunging Attacks deal 15% increased DMG for 6s. Max 5 stacks. Each stack's duration is counted independently."
+      }
+    ]
+  },
+  "Finale of the Deep Galleries": {
+    "name": "Finale of the Deep Galleries",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Cryo DMG Bonus +15%"
+      },
+      {
+        "count": 4,
+        "desc": "When the equipping character has 0 Elemental Energy, Normal Attack DMG is increased by 60% and Elemental Burst DMG is increased by 60%. After the equipping character deals Normal Attack DMG, the aforementioned Elemental Burst effect will stop applying for 6s. After the equipping character deals Elemental Burst DMG, the aforementioned Normal Attack effect will stop applying for 6s. This effect can trigger even if the equipping character is off the field."
       }
     ]
   }

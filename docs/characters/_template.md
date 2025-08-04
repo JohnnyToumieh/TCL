@@ -4,10 +4,22 @@ description: take the first quote from https://genshin-impact.fandom.com/wiki/Ch
 
 <!-- replace every instance of "CharacterName" with the character's full in-game name (underscores for spaces in links), for the evidence vault card on the bottom keep both the characterelement and charactername lowercase (hyphens for spaces here, not underscores). also to delete everything commented out like this when done with the page -->
 
+<!-- 
+Checklist for other pages:
+Gauges: docs/resources/compendiums/elemental-gauges.md
+Particles: docs/resources/compendiums/elemental-skill-particles.md
+Flat damage buffs: docs/combat-mechanics/damage/damage-formula.md
+Snapshot/Dynamic: docs/combat-mechanics/snapshot-and-dynamic.md
+-->
 import char from '@site/src/data/characters/CharacterName.json'
 import SkillIcon from '@site/src/components/char/SkillIcon'
 
 # CharacterName
+
+<!-- Remove this warning when adding the basic mechs ticket -->
+:::caution
+This character has not yet had their findings added to the TCL. Most information will be unavailable.
+:::
 
 import Image from '@theme/IdealImage'
 
@@ -16,10 +28,12 @@ import Image from '@theme/IdealImage'
 
 ## Resources
 
+<!-- 
 * [CharacterName Mains Discord]()
 * [Full CharacterName Written Guide]()
 * [CharacterName Quick Guide]()
 * [# Minute Video Guide to CharacterName]()
+-->
 
 ## Base Stats
 
@@ -41,7 +55,7 @@ import Skill from '@site/src/components/char/Skill'
 take frames (with hitlag -> na column) and mv/s from https://docs.google.com/spreadsheets/d/1l5DOZ6RgYYMIxMtJtd7oQNL9WWVNXcQL0nwan7q7QGc/edit?usp=sharing
 take poise damage (rounded to 2 decimal points) and impulse type from https://genshin-impact.fandom.com/wiki/Interruption_Resistance/Data or the character's wiki page
 -->
-
+<!-- 
 | String | Talent 9% | Frames | MV/s | Poise Damage | Impulse Type |
 | :----- | :-------- | :----- | :--- | :----------- | :----------- |
 | 1-Hit  |           |        |      |              |              |
@@ -49,6 +63,7 @@ take poise damage (rounded to 2 decimal points) and impulse type from https://ge
 | 3-Hit  |           |        |      |              |              |
 | 4-Hit  |           |        |      |              |              |
 | 5-Hit  |           |        |      |              |              |
+-->
 
 </div>
 <div class='talent-columns'>
@@ -85,17 +100,19 @@ take poise damage (rounded to 2 decimal points) and impulse type from https://ge
 <div class='talent-columns'>
 <Skill char={char} skill='na' sectionFilter='Plunging Attack' />
 
+<!-- 
 | Damage Type     | Talent 9% | Poise Damage | Impulse Type |
 | :-------------- | :-------- | :----------- | :----------- |
 | Plunge DMG      |           |              |              |
 | Low Plunge DMG  |           |              |              |
 | High Plunge DMG |           |              |              |
+-->
 
 </div>
 
-**Notes**
+<!-- **Notes**
 
-* MV/s are calculated using the shortest possible frames without any animation cancels, for different cancels see [below](#frames).
+* MV/s are calculated using the shortest possible frames without any animation cancels, for different cancels see [below](#frames). -->
 
 </TabItem>
 
@@ -104,6 +121,7 @@ take poise damage (rounded to 2 decimal points) and impulse type from https://ge
 <div class='talent-columns'>
 <Skill char={char} skill='e' />
 
+<!-- 
 | Attribute      | Tap       | Hold      |
 | :------------- | :-------- | :-------- |
 | DMG \(T9%\)    |           |           |
@@ -117,12 +135,13 @@ take poise damage (rounded to 2 decimal points) and impulse type from https://ge
 | CD             |           |           |
 | Poise Damage   |           |           |
 | Impulse Type   |           |           |
+-->
 
 </div>
 
-**Notes**
+<!-- **Notes**
 
-* 
+*  -->
 
 </TabItem>
 
@@ -131,8 +150,7 @@ take poise damage (rounded to 2 decimal points) and impulse type from https://ge
 <div class='talent-columns'>
 <Skill char={char} skill='q'/>
 
-<!-- take snapshot details from https://docs.google.com/spreadsheets/d/1M2nTLogzYd2o4ZLkYEkzfovwiTznQOB5ujWuMlQbE0k/edit?usp=sharing -->
-
+<!-- 
 | Attribute         | Primary   | Secondary |
 | :---------------- | :-------- | :-------- |
 | DMG \(T9%\)       |           |           |
@@ -146,22 +164,25 @@ take poise damage (rounded to 2 decimal points) and impulse type from https://ge
 | Cooldown          |           |           |
 | Poise Damage      |           |           |
 | Impulse Type      |           |           |
+-->
 
 </div>
 
-**Notes**
+<!-- **Notes**
 
-* 
+*  -->
 
 </TabItem>
 </Tabs>
 
 ## Frames
 
+<!-- 
 import charFrames from '@site/src/data/frames/CharacterName.json'
 import Frames from '@site/src/components/char/Frames'
 
 <Frames data={charFrames} />
+-->
 
 ## Ascension Passives
 

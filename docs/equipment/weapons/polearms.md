@@ -22,6 +22,14 @@ import polearms from '@site/src/data/weapons/Polearm.json'
 
 </Weapon>
 
+### Fractured Halo
+
+<Weapon weapon="Fractured Halo" weapons={polearms} />
+
+### Lumidouce Elegy
+
+<Weapon weapon="Lumidouce Elegy" weapons={polearms}/>
+
 ### Primordial Jade Winged-Spear
 
 <Weapon weapon="Primordial Jade Winged-Spear" weapons={polearms}>
@@ -52,6 +60,10 @@ import polearms from '@site/src/data/weapons/Polearm.json'
 * Staff of the Scarlet Sands snapshots EM when stacks are obtained. - [nico\#7748](../../evidence/equipment/weapons.md#staff-of-the-scarlet-sands-stacks-snapshot)
 
 </Weapon>
+
+### Symphonist of Scents
+
+<Weapon weapon="Symphonist of Scents" weapons={polearms} />
 
 ### Vortex Vanquisher
 
@@ -122,9 +134,17 @@ import FavSeries from './\_common/fav_series.md';
 
 </Weapon>
 
+### Footprint of the Rainbow
+
+<Weapon weapon="Footprint of the Rainbow" weapons={polearms} />
+
 ### Missive Windspear
 
 <Weapon weapon="Missive Windspear" weapons={polearms} />
+
+### Mountain-Bracing Bolt
+
+<Weapon weapon="Mountain-Bracing Bolt" weapons={polearms} />
 
 ### Moonpiercer
 
@@ -177,6 +197,10 @@ import RoyalSeries from './\_common/royal_series.md';
 <RoyalSeries/>
 
 </Weapon>
+
+### Tamayuratei no Ohanashi
+
+<Weapon weapon="Tamayuratei no Ohanashi" weapons={polearms} />
 
 ### "The Catch"
 

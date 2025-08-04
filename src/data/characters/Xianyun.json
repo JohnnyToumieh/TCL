@@ -26,7 +26,7 @@
   "skill": {
     "talents": [
       {
-        "name": "Normal Attack: Word of Wind and Flower",
+        "name": "Word of Wind and Flower",
         "desc": "**Normal Attack**\nSummons swirling winds to perform up to 4 attacks, dealing **Anemo DMG**.\n\n**Charged Attack**\nConsumes a certain amount of Stamina and launches a Breeze Bolt in a straight line that deals **Anemo DMG** to opponents along its path.\n\n**Plunging Attack**\nGathers the power of Anemo and plunges towards the ground from mid-air, damaging all opponents in her path. Deals **AoE Anemo DMG** upon impact with the ground.",
         "img": "Common/Catalyst",
         "talentTable": [
@@ -370,7 +370,7 @@
       "statsUp": [
         {
           "stat": "Base HP",
-          "value": 694.77783203125
+          "value": 694.77783
         },
         {
           "stat": "Base DEF",
@@ -436,7 +436,7 @@
       "statsUp": [
         {
           "stat": "Base HP",
-          "value": 2340.30419921875
+          "value": 2340.3042
         },
         {
           "stat": "Base DEF",
@@ -458,7 +458,7 @@
       "statsUp": [
         {
           "stat": "Base HP",
-          "value": 2833.962158203125
+          "value": 2833.9622
         },
         {
           "stat": "Base DEF",

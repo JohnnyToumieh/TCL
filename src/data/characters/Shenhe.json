@@ -3,7 +3,7 @@
   "star": 5,
   "weaponType": "Polearm",
   "baseStats": {
-    "hpBase": 1011.4725341796875,
+    "hpBase": 1011.47253,
     "attackBase": 23.6474,
     "defenseBase": 64.6164,
     "criticalBase": 0.05,
@@ -26,7 +26,7 @@
   "skill": {
     "talents": [
       {
-        "name": "Normal Attack: Dawnstar Piercer",
+        "name": "Dawnstar Piercer",
         "desc": "**Normal Attack**\nPerforms up to 5 consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
         "img": "Common/Polearm",
         "talentTable": [
@@ -86,7 +86,7 @@
               "30.6%+30.6%",
               "33.7%+33.7%",
               "35.8%+35.8%",
-              "38.2%+38.2%",
+              "38.3%+38.3%",
               "41.6%+41.6%",
               "45.0%+45.0%",
               "48.3%+48.3%",
@@ -166,7 +166,7 @@
       },
       {
         "name": "Spring Spirit Summoning",
-        "desc": "The frosted dew, silvery and dense, shall exorcise all demons.\nGrants all nearby party members the Icy Quill effect and deals **Cryo DMG** in different ways based on whether it is pressed or held.\n\n**Press**\nRushes forward together with a Talisman Spirit, dealing **Cryo DMG** to opponents along the path.\n\n**Hold**\nCommands the Talisman Spirit to deal **AoE Cryo DMG**.\n\n**Icy Quill**\nWhen Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts deal **Cryo DMG** to opponents, the DMG dealt is increased based on Shenhe's current ATK.\n\nThe Icy Quill's effects will be cleared once its duration ends or after being triggered a certain number of times. When held rather than pressed, the Icy Quill's effect lasts longer and can be triggered more times.\nWhen one **Cryo DMG** instance strikes multiple opponents, the effect is triggered multiple times based on the number of opponents hit. The number of times the effect is triggered is calculated independently for each party member with the Icy Quill.\n\n**The power of the spirits is no falsehood. Burdened with her orders, the divine maiden hurries on!**",
+        "desc": "The frosted dew, silvery and dense, shall exorcise all demons.\nGrants all nearby party members the Icy Quill effect and deals **Cryo DMG** in different ways based on whether it is #pressed or held.\n\n**#Press**\nRushes forward together with a Talisman Spirit, dealing **Cryo DMG** to opponents along the path.\n\n**Hold**\nCommands the Talisman Spirit to deal **AoE Cryo DMG**.\n\n**Icy Quill**\nWhen Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts deal **Cryo DMG** to opponents, the DMG dealt is increased based on Shenhe's current ATK.\n\nThe Icy Quill's effects will be cleared once its duration ends or after being triggered a certain number of times. When held rather than #pressed, the Icy Quill's effect lasts longer and can be triggered more times.\nWhen one **Cryo DMG** instance strikes multiple opponents, the effect is triggered multiple times based on the number of opponents hit. The number of times the effect is triggered is calculated independently for each party member with the Icy Quill.\n\n**The power of the spirits is no falsehood. Burdened with her orders, the divine maiden hurries on!**",
         "img": "Shenhe/skill_1",
         "talentTable": [
           {
@@ -325,7 +325,7 @@
       },
       {
         "name": "Spirit Communion Seal",
-        "desc": "After Shenhe uses **Spring Spirit Summoning**, she will grant all nearby party members the following effects:\n· Press: Elemental Skill and Elemental Burst DMG increased by 15% for 10s.\n· Hold: Normal, Charged, and Plunging Attack DMG increased by 15% for 15s.",
+        "desc": "After Shenhe uses **Spring Spirit Summoning**, she will grant all nearby party members the following effects:\n· #Press: Elemental Skill and Elemental Burst DMG increased by 15% for 10s.\n· Hold: Normal, Charged, and Plunging Attack DMG increased by 15% for 15s.",
         "img": "Shenhe/passive_1",
         "minAscension": 4
       },
@@ -406,7 +406,7 @@
         },
         {
           "stat": "Base ATK",
-          "value": 20.27402687072754
+          "value": 20.274027
         },
         {
           "stat": "ATK%",
@@ -428,7 +428,7 @@
         },
         {
           "stat": "Base ATK",
-          "value": 34.679256439208984
+          "value": 34.679256
         },
         {
           "stat": "ATK%",
@@ -450,7 +450,7 @@
         },
         {
           "stat": "Base ATK",
-          "value": 53.886226654052734
+          "value": 53.886227
         },
         {
           "stat": "ATK%",
@@ -464,7 +464,7 @@
       "statsUp": [
         {
           "stat": "Base HP",
-          "value": 2921.25048828125
+          "value": 2921.2505
         },
         {
           "stat": "Base DEF",
@@ -486,7 +486,7 @@
       "statsUp": [
         {
           "stat": "Base HP",
-          "value": 3537.45166015625
+          "value": 3537.4517
         },
         {
           "stat": "Base DEF",
@@ -494,7 +494,7 @@
         },
         {
           "stat": "Base ATK",
-          "value": 82.69668579101562
+          "value": 82.696686
         },
         {
           "stat": "ATK%",

@@ -26,7 +26,7 @@
   "skill": {
     "talents": [
       {
-        "name": "Normal Attack: Flowing Eddies",
+        "name": "Flowing Eddies",
         "desc": "**Normal Attack**\nPerforms up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash. \n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
         "img": "Common/Claymore",
         "talentTable": [
@@ -269,7 +269,7 @@
               "40.1% Cryo + 121.7% Physical",
               "43.1% Cryo + 130.8% Physical",
               "46.1% Cryo + 140.0% Physical",
-              "50.1% Cryo + 152.1% Physical",
+              "50.1% Cryo + 152.2% Physical",
               "53.1% Cryo + 161.3% Physical",
               "56.1% Cryo + 170.4% Physical",
               "60.1% Cryo + 182.6% Physical",
@@ -448,7 +448,7 @@
       "statsUp": [
         {
           "stat": "Base HP",
-          "value": 756.08154296875
+          "value": 756.08154
         },
         {
           "stat": "Base DEF",
@@ -536,7 +536,7 @@
       "statsUp": [
         {
           "stat": "Base HP",
-          "value": 3084.016845703125
+          "value": 3084.0168
         },
         {
           "stat": "Base DEF",
@@ -558,7 +558,7 @@
       "statsUp": [
         {
           "stat": "Base HP",
-          "value": 3621.232666015625
+          "value": 3621.2327
         },
         {
           "stat": "Base DEF",

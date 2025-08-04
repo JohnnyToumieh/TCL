@@ -3,7 +3,7 @@
   "star": 4,
   "weaponType": "Catalyst",
   "baseStats": {
-    "hpBase": 784.1402587890625,
+    "hpBase": 784.14026,
     "attackBase": 20.12304,
     "defenseBase": 49.2135,
     "criticalBase": 0.05,
@@ -26,7 +26,7 @@
   "skill": {
     "talents": [
       {
-        "name": "Normal Attack: Seal of Approval",
+        "name": "Seal of Approval",
         "desc": "**Normal Attack**\nShoots fireballs that deal up to three counts of **Pyro DMG**.\nWhen Yanfei's Normal Attacks hit enemies, they will grant her a single Scarlet Seal. Yanfei may possess a maximum of 3 Scarlet Seals, and each time this effect is triggered, the duration of currently possessed Scarlet Seals will refresh.\nEach Scarlet Seal will decrease Yanfei's Stamina consumption and will disappear when she leaves the field.\n\n**Charged Attack**\nConsumes Stamina and all Scarlet Seals before dealing **AoE Pyro DMG** to opponents after a short casting time.\nThis Charged Attack's AoE and DMG will increase according to the amount of Scarlet Seals consumed.\n\n**Plunging Attack**\nGathering the power of Pyro, Yanfei plunges towards the ground from mid-air, damaging all opponents in her path. Deals **AoE Pyro DMG** upon impact with the ground.",
         "img": "Common/Catalyst",
         "talentTable": [
@@ -342,7 +342,7 @@
         },
         {
           "stat": "Base ATK",
-          "value": 25.714845657348633
+          "value": 25.714846
         },
         {
           "stat": "Pyro DMG Bonus",
@@ -364,7 +364,7 @@
         },
         {
           "stat": "Base ATK",
-          "value": 39.956912994384766
+          "value": 39.956913
         },
         {
           "stat": "Pyro DMG Bonus",
@@ -386,7 +386,7 @@
         },
         {
           "stat": "Base ATK",
-          "value": 50.638465881347656
+          "value": 50.638466
         },
         {
           "stat": "Pyro DMG Bonus",
@@ -400,7 +400,7 @@
       "statsUp": [
         {
           "stat": "Base HP",
-          "value": 2389.41845703125
+          "value": 2389.4185
         },
         {
           "stat": "Base DEF",
@@ -408,7 +408,7 @@
         },
         {
           "stat": "Base ATK",
-          "value": 61.32001495361328
+          "value": 61.320015
         },
         {
           "stat": "Pyro DMG Bonus",
@@ -430,7 +430,7 @@
         },
         {
           "stat": "Base ATK",
-          "value": 72.0015640258789
+          "value": 72.001564
         },
         {
           "stat": "Pyro DMG Bonus",

@@ -26,7 +26,7 @@
   "skill": {
     "talents": [
       {
-        "name": "Normal Attack: Akara",
+        "name": "Akara",
         "desc": "**Normal Attack**\nPerforms up to 4 attacks that deal **Dendro DMG** to opponents in front of her.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to deal **AoE Dendro DMG** to opponents in front of her after a short casting time.\n\n**Plunging Attack**\nCalling upon the might of Dendro, Nahida plunges towards the ground from mid-air, damaging all opponents in her path. Deals **AoE Dendro DMG** upon impact with the ground.",
         "img": "Common/Catalyst",
         "talentTable": [
@@ -458,7 +458,7 @@
       "statsUp": [
         {
           "stat": "Base HP",
-          "value": 1182.8431396484375
+          "value": 1182.8431
         },
         {
           "stat": "Base DEF",
@@ -466,7 +466,7 @@
         },
         {
           "stat": "Base ATK",
-          "value": 34.13312530517578
+          "value": 34.133125
         },
         {
           "stat": "Elemental Mastery",
@@ -488,7 +488,7 @@
         },
         {
           "stat": "Base ATK",
-          "value": 53.03762435913086
+          "value": 53.037624
         },
         {
           "stat": "Elemental Mastery",

@@ -5,7 +5,7 @@
   "baseStats": {
     "hpBase": 1039.4418,
     "attackBase": 19.41072,
-    "defenseBase": 59.68567657470703,
+    "defenseBase": 59.685677,
     "criticalBase": 0.05,
     "criticalDmgBase": 0.5
   },
@@ -26,7 +26,7 @@
   "skill": {
     "talents": [
       {
-        "name": "Normal Attack: Rapid Ritesword",
+        "name": "Rapid Ritesword",
         "desc": "**Normal Attack**\nPerforms up to 4 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
         "img": "Common/Sword",
         "talentTable": [
@@ -102,7 +102,7 @@
               "51.4%+71.4%",
               "56.5%+78.5%",
               "60.1%+83.5%",
-              "64.2%+89.2%",
+              "64.3%+89.3%",
               "69.9%+97.1%",
               "75.6%+105.0%",
               "81.2%+112.8%",
@@ -150,7 +150,7 @@
       },
       {
         "name": "Enigmatic Feint",
-        "desc": "Flicks her mantle and executes an Enigma Thrust, dealing **Anemo DMG**.\nWhen the Enigma Thrust hits an opponent, it will restore Lynette's HP based on her Max HP, and in the 4s afterward, she will lose a certain amount of HP per second.\nBased on whether you press or hold this ability, she will use Enigma Thrust differently.\n\n**Press**\nShe swiftly uses an Enigma Thrust.\n\n**Hold**\nLynette will enter a high-speed Pilfering Shadow state and apply Shadowsign to a nearby opponent. You can control her movement direction during this state, and you can end it prematurely by using this skill again.\nWhen this high-speed state ends, Lynette will unleash her Enigma Thrust. If there is an opponent with Shadowsign applied to them nearby, Lynette will approach them in a flash before using Enigma Thrust.\n\nA maximum of 1 opponent can have Shadowsign at any one time. When this opponent gets too far from Lynette, the Shadowsign will be canceled.\n\n**Arkhe: Ousia**\nAt specific intervals, Lynette will unleash a Surging Blade when she uses Enigma Thrust, dealing Ousia-aligned **Anemo DMG**.\n\n**\"Now then, turn your eyes to the stage and continue to enjoy the performance. When I next appear, I'll be where you least expect.\"**",
+        "desc": "Flicks her mantle and executes an Enigma Thrust, dealing **Anemo DMG**.\nWhen the Enigma Thrust hits an opponent, it will restore Lynette's HP based on her Max HP, and in the 4s afterward, she will lose a certain amount of HP per second.\nBased on whether you #press or hold this ability, she will use Enigma Thrust differently.\n\n**#Press**\nShe swiftly uses an Enigma Thrust.\n\n**Hold**\nLynette will enter a high-speed Pilfering Shadow state and apply Shadowsign to a nearby opponent. You can control her movement direction during this state, and you can end it prematurely by using this skill again.\nWhen this high-speed state ends, Lynette will unleash her Enigma Thrust. If there is an opponent with Shadowsign applied to them nearby, Lynette will approach them in a flash before using Enigma Thrust.\n\nA maximum of 1 opponent can have Shadowsign at any one time. When this opponent gets too far from Lynette, the Shadowsign will be canceled.\n\n**Arkhe: Ousia**\nAt specific intervals, Lynette will unleash a Surging Blade when she uses Enigma Thrust, dealing Ousia-aligned **Anemo DMG**.\n\n**\"Now then, turn your eyes to the stage and continue to enjoy the performance. When I next appear, I'll be where you least expect.\"**",
         "img": "Lynette/skill_1",
         "talentTable": [
           {
@@ -390,7 +390,7 @@
       "statsUp": [
         {
           "stat": "Base HP",
-          "value": 1328.2513427734375
+          "value": 1328.2513
         },
         {
           "stat": "Base DEF",
@@ -398,7 +398,7 @@
         },
         {
           "stat": "Base ATK",
-          "value": 24.804584503173828
+          "value": 24.804585
         },
         {
           "stat": "Anemo DMG Bonus",
@@ -412,7 +412,7 @@
       "statsUp": [
         {
           "stat": "Base HP",
-          "value": 2063.8984375
+          "value": 2063.8984
         },
         {
           "stat": "Base DEF",
@@ -420,7 +420,7 @@
         },
         {
           "stat": "Base ATK",
-          "value": 38.54250717163086
+          "value": 38.542507
         },
         {
           "stat": "Anemo DMG Bonus",
@@ -434,7 +434,7 @@
       "statsUp": [
         {
           "stat": "Base HP",
-          "value": 2615.633544921875
+          "value": 2615.6335
         },
         {
           "stat": "Base DEF",
@@ -456,15 +456,15 @@
       "statsUp": [
         {
           "stat": "Base HP",
-          "value": 3167.36865234375
+          "value": 3167.3687
         },
         {
           "stat": "Base DEF",
-          "value": 181.8731231689453
+          "value": 181.87312
         },
         {
           "stat": "Base ATK",
-          "value": 59.14939498901367
+          "value": 59.149395
         },
         {
           "stat": "Anemo DMG Bonus",
@@ -482,11 +482,11 @@
         },
         {
           "stat": "Base DEF",
-          "value": 213.5542449951172
+          "value": 213.55424
         },
         {
           "stat": "Base ATK",
-          "value": 69.45283508300781
+          "value": 69.452835
         },
         {
           "stat": "Anemo DMG Bonus",
